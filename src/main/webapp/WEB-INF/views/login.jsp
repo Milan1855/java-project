@@ -89,7 +89,7 @@
         <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
             <form class="login100-form validate-form" method="POST" action="${contextPath}/login">
                 <span class="login100-form-title p-b-49">
-                    SignIn
+                    Login
                 </span>
 
                 <!-- Display error message if any -->
@@ -100,7 +100,7 @@
                 </c:if>
 
                 <div class="wrap-input100 validate-input m-b-23" data-validate="Username is required">
-                    <span class="label-input100">Username</span>
+                    <span class="label-input100">MilanUsername</span>
                     <input class="input100" type="text" name="username" placeholder="Type your username" required autofocus>
                     <span class="focus-input100" data-symbol="&#xf206;"></span>
                 </div>
